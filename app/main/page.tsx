@@ -79,7 +79,7 @@ const TodoList = () => {
                 <Stack key={index}>
                   <HStack spacing={"auto"}>
                     <Checkbox spacing={"24px"} colorScheme="orange">
-                      <ListItem>{todo}</ListItem>
+                      <ListItem textColor={"white"}>{todo}</ListItem>
                     </Checkbox>
                     <CloseButton onClick={() => handleDelete(index)} />
                   </HStack>
