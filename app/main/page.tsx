@@ -59,6 +59,7 @@ const TodoList = () => {
                 onChange={(e) => setNewTodo(e.target.value)}
                 focusBorderColor="white"
                 placeholder="Add a new to-do"
+                color={"white"}
                 _placeholder={{ color: "white" }}
               />
 
@@ -79,7 +80,7 @@ const TodoList = () => {
                 <Stack key={index}>
                   <HStack spacing={"auto"}>
                     <Checkbox spacing={"24px"} colorScheme="orange">
-                      <ListItem textColor={"white"}>{todo}</ListItem>
+                      <ListItem textColor={"white"} fontSize="large">{todo}</ListItem>
                     </Checkbox>
                     <CloseButton onClick={() => handleDelete(index)} />
                   </HStack>
