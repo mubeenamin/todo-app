@@ -42,6 +42,8 @@ const TodoList = () => {
       h={{ base: "auto", md: "auto" }}
       py={[0, 10, 20]}
       alignItems="center"
+      maxW={"600px"}
+      margin='auto'
       
     >
       
