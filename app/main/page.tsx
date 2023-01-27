@@ -17,6 +17,7 @@ import {
   Heading,
   Divider,
   Stack,
+  Box
 } from "@chakra-ui/react";
 
 const TodoList = () => {
@@ -37,11 +38,13 @@ const TodoList = () => {
   };
 
   return (
-    <Flex
+    <Box
       h={{ base: "auto", md: "auto" }}
       py={[0, 10, 20]}
       alignItems="center"
+      
     >
+      
       <VStack
         w="auto"
         h="auto"
@@ -91,7 +94,7 @@ const TodoList = () => {
           </GridItem>
         </SimpleGrid>
       </VStack>
-    </Flex>
+    </Box>
   );
 };
 
