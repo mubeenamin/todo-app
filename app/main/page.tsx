@@ -44,15 +44,16 @@ const TodoList = () => {
       alignItems="center"
       maxW={"600px"}
       margin='auto'
-      
+      bgGradient="linear(to-r, teal.500, green.500)"
+      boxShadow="dark-lg"
     >
       
       <VStack
         w="auto"
         h="auto"
-        p={10}
+        p={2}
         spacing={10}
-        bgGradient="linear(to-r, teal.500, green.500)"
+        
       >
         <Heading>Todo List</Heading>
         <SimpleGrid columns={1} rowGap={10}>
